@@ -1,0 +1,10 @@
+message m {
+	required int32 ID;
+	required binary Case_number;
+	required binary Date;
+	required binary Primary_type;
+	required binary Description;
+	required binary Loc_description;
+	optional binary update_on;
+
+}

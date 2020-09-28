@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/CMakeFiles/jemalloc_ep"
+		},
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/CMakeFiles/jemalloc_ep.rule"
+		},
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/CMakeFiles/jemalloc_ep-complete.rule"
+		},
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src/jemalloc_ep-stamp/jemalloc_ep-install.rule"
+		},
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src/jemalloc_ep-stamp/jemalloc_ep-mkdir.rule"
+		},
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src/jemalloc_ep-stamp/jemalloc_ep-download.rule"
+		},
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src/jemalloc_ep-stamp/jemalloc_ep-update.rule"
+		},
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src/jemalloc_ep-stamp/jemalloc_ep-patch.rule"
+		},
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src/jemalloc_ep-stamp/jemalloc_ep-configure.rule"
+		},
+		{
+			"file" : "/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src/jemalloc_ep-stamp/jemalloc_ep-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"jemalloc_ep"
+		],
+		"name" : "jemalloc_ep"
+	}
+}

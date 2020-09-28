@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!--
+  ~ Licensed to the Apache Software Foundation (ASF) under one
+  ~ or more contributor license agreements. See the NOTICE file
+  ~ distributed with this work for additional information
+  ~ regarding copyright ownership. The ASF licenses this file
+  ~ to you under the Apache License, Version 2.0 (the
+  ~ "License"); you may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing,
+  ~ software distributed under the License is distributed on an
+  ~ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  ~ KIND, either express or implied. See the License for the
+  ~ specific language governing permissions and limitations
+  ~ under the License,
+  ~
+  ~ Contributors:
+  ~     Hao Jiang - initial API and implementation
+  ~
+  -->
+
+<entity-mappings
+        xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/orm"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.eclipse.org/eclipselink/xsds/persistence/orm http://www.eclipse.org/eclipselink/xsds/eclipselink_orm_2_1.xsd"
+        version="2.1">
+    <converter name="uriConverter"
+               class="codecdb.dataset.persist.jpa.URIConverter"/>
+    <converter name="dataTypeConverter"
+               class="codecdb.dataset.persist.jpa.DataTypeConverter"/>
+    <table-generator name="COL_GEN" allocation-size="50"
+                     initial-value="1" table="seq_table" pk-column-name="name"
+                     pk-column-value="COL_DATA" value-column-name="counter"/>
+
+    <entity name="Column" class="codecdb.dataset.persist.jpa.ColumnWrapper">
+        <table name="col_data"/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+                <generated-value strategy="TABLE" generator="COL_GEN"/>
+            </id>
+            <basic name="origin">
+                <column name="origin_uri"/>
+                <convert>uriConverter</convert>
+            </basic>
+            <basic name="colIndex">
+                <column name="idx"/>
+            </basic>
+
+            <basic name="colName">
+                <column name="name"/>
+            </basic>
+            <basic name="colFile">
+                <column name="file_uri"/>
+                <convert>uriConverter</convert>
+            </basic>
+            <basic name="dataType">
+                <column name="data_type"/>
+                <convert>dataTypeConverter</convert>
+            </basic>
+            <one-to-one name="parentWrapper">
+                <join-column name="parent_id"/>
+                <cascade>
+                    <cascade-all/>
+                </cascade>
+            </one-to-one>
+
+            <element-collection name="features"
+                                target-class="codecdb.dataset.feature.Feature" fetch="LAZY">
+                <collection-table name="feature">
+                    <join-column name="col_id"/>
+                </collection-table>
+                <batch-fetch type="JOIN"/>
+            </element-collection>
+
+            <element-collection name="infos" fetch="LAZY" target-class="java.lang.String">
+                <map-key-column name="name"/>
+                <column name="value"/>
+                <collection-table name="col_info">
+                    <join-column name="col_id"/>
+                </collection-table>
+                <batch-fetch type="JOIN"/>
+            </element-collection>
+
+        </attributes>
+
+    </entity>
+    <embeddable class="codecdb.dataset.feature.Feature">
+        <attributes>
+            <basic name="featureType">
+                <column name="type"/>
+            </basic>
+            <basic name="name">
+                <column name="name"/>
+            </basic>
+            <basic name="value">
+                <column name="value"/>
+            </basic>
+        </attributes>
+    </embeddable>
+
+
+</entity-mappings>

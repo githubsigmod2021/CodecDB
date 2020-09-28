@@ -1,0 +1,8 @@
+message m {
+	has_header
+	required int32 id;
+	required binary b;
+	required double c;
+	required int64	d;
+	required boolean e;
+}

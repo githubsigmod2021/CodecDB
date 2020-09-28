@@ -1,0 +1,7 @@
+message m {
+	no_header
+	required int32 id;
+	required binary name;
+	required binary gender;
+
+}

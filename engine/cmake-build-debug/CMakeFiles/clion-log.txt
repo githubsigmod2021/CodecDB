@@ -1,0 +1,259 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/harper/git/CodecDB/engine
+-- Building using CMake version: 3.17.3
+-- The C compiler identification is AppleClang 12.0.0.12000032
+-- The CXX compiler identification is AppleClang 12.0.0.12000032
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Arrow version: 1.0.0 (full: '1.0.0-SNAPSHOT')
+-- Arrow SO version: 100 (full: 100.0.0)
+-- Found PkgConfig: /usr/local/bin/pkg-config (found version "0.28") 
+-- clang-tidy not found
+-- clang-format not found
+-- infer not found
+-- Found PythonInterp: /usr/bin/python (found version "2.7.16") 
+-- Found cpplint executable at /Users/harper/git/CodecDB/engine/build-support/cpplint.py
+-- Performing Test CXX_SUPPORTS_SSE4_2
+-- Performing Test CXX_SUPPORTS_SSE4_2 - Success
+-- Performing Test CXX_SUPPORTS_ALTIVEC
+-- Performing Test CXX_SUPPORTS_ALTIVEC - Success
+-- Performing Test CXX_SUPPORTS_ARMCRC
+-- Performing Test CXX_SUPPORTS_ARMCRC - Failed
+-- Performing Test CXX_SUPPORTS_ARMV8_CRC_CRYPTO
+-- Performing Test CXX_SUPPORTS_ARMV8_CRC_CRYPTO - Failed
+-- Arrow build warning level: CHECKIN
+Configured for DEBUG build (set with cmake -DCMAKE_BUILD_TYPE={release,debug,...})
+-- Build Type: DEBUG
+-- Using AUTO approach to find dependencies
+-- ARROW_AWSSDK_BUILD_VERSION: 1.7.160
+-- ARROW_BOOST_BUILD_VERSION: 1.71.0
+-- ARROW_BROTLI_BUILD_VERSION: v1.0.7
+-- ARROW_BZIP2_BUILD_VERSION: 1.0.8
+-- ARROW_CARES_BUILD_VERSION: 1.15.0
+-- ARROW_GBENCHMARK_BUILD_VERSION: v1.5.0
+-- ARROW_GFLAGS_BUILD_VERSION: v2.2.0
+-- ARROW_GLOG_BUILD_VERSION: v0.3.5
+-- ARROW_GRPC_BUILD_VERSION: v1.24.3
+-- ARROW_GTEST_BUILD_VERSION: 1.8.1
+-- ARROW_JEMALLOC_BUILD_VERSION: 5.2.1
+-- ARROW_LZ4_BUILD_VERSION: v1.9.2
+-- ARROW_MIMALLOC_BUILD_VERSION: 270e765454f98e8bab9d42609b153425f749fff6
+-- ARROW_ORC_BUILD_VERSION: 1.5.7
+-- ARROW_PROTOBUF_BUILD_VERSION: v3.7.1
+-- ARROW_RAPIDJSON_BUILD_VERSION: 2bbd33b33217ff4a73434ebf10cdac41e2ef5e34
+-- ARROW_RE2_BUILD_VERSION: 2019-08-01
+-- ARROW_SNAPPY_BUILD_VERSION: 1.1.7
+-- ARROW_THRIFT_BUILD_VERSION: 0.12.0
+-- ARROW_THRIFT_BUILD_MD5_CHECKSUM: 3deebbb4d1ca77dd9c9e009a1ea02183
+-- ARROW_ZLIB_BUILD_VERSION: 1.2.11
+-- ARROW_ZSTD_BUILD_VERSION: v1.4.3
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Building without OpenSSL support. Minimum OpenSSL version 1.0.2 required.
+-- Building (vendored) jemalloc from source
+-- Found hdfs.h at: /Users/harper/git/CodecDB/engine/thirdparty/hadoop/include/hdfs.h
+-- CMAKE_C_FLAGS:  -Qunused-arguments -ggdb -O0   -Wall -Wextra -Wdocumentation -Wno-missing-braces -Wno-unused-parameter -Wno-unknown-warning-option -Wno-constant-logical-operand -Werror -Wno-unknown-warning-option -stdlib=libc++ -msse4.2 -maltivec
+-- CMAKE_CXX_FLAGS:   -Qunused-arguments -fcolor-diagnostics -ggdb -O0  -Wall -Wextra -Wdocumentation -Wno-missing-braces -Wno-unused-parameter -Wno-unknown-warning-option -Wno-constant-logical-operand -Werror -Wno-unknown-warning-option -stdlib=libc++ -msse4.2 -maltivec 
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- backtrace facility detected in default set of libraries
+-- Found Backtrace: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include  
+-- ---------------------------------------------------------------------
+-- Arrow version:                                 1.0.0-SNAPSHOT
+-- 
+-- Build configuration summary:
+--   Generator: Unix Makefiles
+--   Build type: DEBUG
+--   Source directory: /Users/harper/git/CodecDB/engine
+--   Install prefix: /usr/local
+-- 
+-- Compile and link options:
+-- 
+--   ARROW_CXXFLAGS="" [default=""]
+--       Compiler flags to append when compiling Arrow
+--   ARROW_BUILD_STATIC=ON [default=ON]
+--       Build static libraries
+--   ARROW_BUILD_SHARED=ON [default=ON]
+--       Build shared libraries
+--   ARROW_NO_DEPRECATED_API=OFF [default=OFF]
+--       Exclude deprecated APIs from build
+--   ARROW_USE_CCACHE=ON [default=ON]
+--       Use ccache when compiling (if available)
+--   ARROW_USE_LD_GOLD=OFF [default=OFF]
+--       Use ld.gold for linking on Linux (if available)
+--   ARROW_USE_SIMD=ON [default=ON]
+--       Build with SIMD optimizations
+--   ARROW_SSE42=ON [default=ON]
+--       Build with SSE4.2 if compiler has support
+--   ARROW_ALTIVEC=ON [default=ON]
+--       Build with Altivec if compiler has support
+--   ARROW_RPATH_ORIGIN=OFF [default=OFF]
+--       Build Arrow libraries with RATH set to $ORIGIN
+--   ARROW_INSTALL_NAME_RPATH=ON [default=ON]
+--       Build Arrow libraries with install_name set to @rpath
+--   ARROW_GGDB_DEBUG=ON [default=ON]
+--       Pass -ggdb flag to debug builds
+-- 
+-- Test and benchmark options:
+-- 
+--   ARROW_BUILD_EXAMPLES=OFF [default=OFF]
+--       Build the Arrow examples
+--   ARROW_BUILD_TESTS=OFF [default=OFF]
+--       Build the Arrow googletest unit tests
+--   ARROW_ENABLE_TIMING_TESTS=ON [default=ON]
+--       Enable timing-sensitive tests
+--   ARROW_BUILD_INTEGRATION=OFF [default=OFF]
+--       Build the Arrow integration test executables
+--   ARROW_BUILD_BENCHMARKS=OFF [default=OFF]
+--       Build the Arrow micro benchmarks
+--   ARROW_BUILD_BENCHMARKS_REFERENCE=OFF [default=OFF]
+--       Build the Arrow micro reference benchmarks
+--   ARROW_TEST_LINKAGE=shared [default=shared|static]
+--       Linkage of Arrow libraries with unit tests executables.
+--   ARROW_FUZZING=OFF [default=OFF]
+--       Build Arrow Fuzzing executables
+--   ARROW_LARGE_MEMORY_TESTS=OFF [default=OFF]
+--       Enable unit tests which use large memory
+-- 
+-- Lint options:
+-- 
+--   ARROW_ONLY_LINT=OFF [default=OFF]
+--       Only define the lint and check-format targets
+--   ARROW_VERBOSE_LINT=OFF [default=OFF]
+--       If off, 'quiet' flags will be passed to linting tools
+--   ARROW_GENERATE_COVERAGE=OFF [default=OFF]
+--       Build with C++ code coverage enabled
+-- 
+-- Checks options:
+-- 
+--   ARROW_TEST_MEMCHECK=OFF [default=OFF]
+--       Run the test suite using valgrind --tool=memcheck
+--   ARROW_USE_ASAN=OFF [default=OFF]
+--       Enable Address Sanitizer checks
+--   ARROW_USE_TSAN=OFF [default=OFF]
+--       Enable Thread Sanitizer checks
+--   ARROW_USE_UBSAN=OFF [default=OFF]
+--       Enable Undefined Behavior sanitizer checks
+-- 
+-- Project component options:
+-- 
+--   ARROW_BUILD_UTILITIES=OFF [default=OFF]
+--       Build Arrow commandline utilities
+--   ARROW_COMPUTE=OFF [default=OFF]
+--       Build the Arrow Compute Modules
+--   ARROW_CSV=OFF [default=OFF]
+--       Build the Arrow CSV Parser Module
+--   ARROW_CUDA=OFF [default=OFF]
+--       Build the Arrow CUDA extensions (requires CUDA toolkit)
+--   ARROW_DATASET=OFF [default=OFF]
+--       Build the Arrow Dataset Modules
+--   ARROW_FILESYSTEM=OFF [default=OFF]
+--       Build the Arrow Filesystem Layer
+--   ARROW_FLIGHT=OFF [default=OFF]
+--       Build the Arrow Flight RPC System (requires GRPC, Protocol Buffers)
+--   ARROW_GANDIVA=OFF [default=OFF]
+--       Build the Gandiva libraries
+--   ARROW_HDFS=OFF [default=OFF]
+--       Build the Arrow HDFS bridge
+--   ARROW_HIVESERVER2=OFF [default=OFF]
+--       Build the HiveServer2 client and Arrow adapter
+--   ARROW_IPC=ON [default=ON]
+--       Build the Arrow IPC extensions
+--   ARROW_JEMALLOC=ON [default=ON]
+--       Build the Arrow jemalloc-based allocator
+--   ARROW_JNI=OFF [default=OFF]
+--       Build the Arrow JNI lib
+--   ARROW_JSON=OFF [default=OFF]
+--       Build Arrow with JSON support (requires RapidJSON)
+--   ARROW_MIMALLOC=OFF [default=OFF]
+--       Build the Arrow mimalloc-based allocator
+--   ARROW_PARQUET=OFF [default=OFF]
+--       Build the Parquet libraries
+--   ARROW_ORC=OFF [default=OFF]
+--       Build the Arrow ORC adapter
+--   ARROW_PLASMA=OFF [default=OFF]
+--       Build the plasma object store along with Arrow
+--   ARROW_PLASMA_JAVA_CLIENT=OFF [default=OFF]
+--       Build the plasma object store java client
+--   ARROW_PYTHON=OFF [default=OFF]
+--       Build the Arrow CPython extensions
+--   ARROW_S3=OFF [default=OFF]
+--       Build Arrow with S3 support (requires the AWS SDK for C++)
+--   ARROW_TENSORFLOW=OFF [default=OFF]
+--       Build Arrow with TensorFlow support enabled
+-- 
+-- Thirdparty toolchain options:
+-- 
+--   ARROW_DEPENDENCY_SOURCE=AUTO [default=AUTO|BUNDLED|SYSTEM|CONDA|BREW]
+--       Method to use for acquiring arrow's build dependencies
+--   ARROW_VERBOSE_THIRDPARTY_BUILD=OFF [default=OFF]
+--       Show output from ExternalProjects rather than just logging to files
+--   ARROW_BOOST_USE_SHARED=ON [default=ON]
+--       Rely on boost shared libraries where relevant
+--   ARROW_PROTOBUF_USE_SHARED=ON [default=ON]
+--       Rely on Protocol Buffers shared libraries where relevant
+--   ARROW_GFLAGS_USE_SHARED=ON [default=ON]
+--       Rely on GFlags shared libraries where relevant
+--   ARROW_WITH_BACKTRACE=ON [default=ON]
+--       Build with backtrace support
+--   ARROW_USE_GLOG=OFF [default=OFF]
+--       Build libraries with glog support for pluggable logging
+--   ARROW_WITH_BROTLI=OFF [default=OFF]
+--       Build with Brotli compression
+--   ARROW_WITH_BZ2=OFF [default=OFF]
+--       Build with BZ2 compression
+--   ARROW_WITH_LZ4=OFF [default=OFF]
+--       Build with lz4 compression
+--   ARROW_WITH_SNAPPY=OFF [default=OFF]
+--       Build with Snappy compression
+--   ARROW_WITH_ZLIB=OFF [default=OFF]
+--       Build with zlib compression
+--   ARROW_WITH_ZSTD=OFF [default=OFF]
+--       Build with zstd compression
+-- 
+-- Parquet options:
+-- 
+--   PARQUET_MINIMAL_DEPENDENCY=OFF [default=OFF]
+--       Depend only on Thirdparty headers to build libparquet.
+--       Always OFF if building binaries
+--   PARQUET_BUILD_EXECUTABLES=OFF [default=OFF]
+--       Build the Parquet executable CLI tools. Requires static libraries to be built.
+--   PARQUET_BUILD_EXAMPLES=OFF [default=OFF]
+--       Build the Parquet examples. Requires static libraries to be built.
+--   PARQUET_REQUIRE_ENCRYPTION=OFF [default=OFF]
+--       Build support for encryption. Fail if OpenSSL is not found
+-- 
+-- Gandiva options:
+-- 
+--   ARROW_GANDIVA_JAVA=OFF [default=OFF]
+--       Build the Gandiva JNI wrappers
+--   ARROW_GANDIVA_STATIC_LIBSTDCPP=OFF [default=OFF]
+--       Include -static-libstdc++ -static-libgcc when linking with
+--       Gandiva static libraries
+--   ARROW_GANDIVA_PC_CXX_FLAGS="" [default=""]
+--       Compiler flags to append when pre-compiling Gandiva operations
+-- 
+-- Advanced developer options:
+-- 
+--   ARROW_EXTRA_ERROR_CONTEXT=OFF [default=OFF]
+--       Compile with extra error context (line numbers, code)
+--   ARROW_OPTIONAL_INSTALL=OFF [default=OFF]
+--       If enabled install ONLY targets that have already been built. Please be
+--       advised that if this is enabled 'install' will fail silently on components
+--       that have not been built
+--   Outputting build configuration summary to /Users/harper/git/CodecDB/engine/cmake-build-debug/cmake_summary.json
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/harper/git/CodecDB/engine/cmake-build-debug

@@ -1,0 +1,2492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="arrow"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\jemalloc_ep-prefix\;CMake Files\cmake-build-debug\jemalloc_ep-prefix\tmp\;CMake Files\src\;CMake Files\src\arrow\;CMake Files\src\arrow\util\;CMake Files\src\arrow\testing\;CMake Files\src\arrow\array\;CMake Files\src\arrow\io\;CMake Files\src\arrow\vendored\;CMake Files\src\arrow\vendored\datetime\;CMake Files\src\arrow\vendored\double-conversion\;CMake Files\src\arrow\ipc\;CMake Files\src\sboost\;CMake Files\src\lqf\;CMake Files\src\lqf\tpch\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow_test_dependencies">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrow_test_dependencies"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow_dependencies">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrow_dependencies"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cscope">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 cscope"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="etags">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 etags"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tags">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 tags"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow_benchmark_dependencies">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrow_benchmark_dependencies"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jemalloc_ep">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 jemalloc_ep"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="toolchain-tests">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 toolchain-tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lint">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 lint"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iwyu">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 iwyu"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="toolchain-benchmarks">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 toolchain-benchmarks"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="toolchain">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 toolchain"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lint_cpp_cli">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 lint_cpp_cli"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rapidjson">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rapidjson"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ctags">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctags"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow_static">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libarrow.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_EXPORTING"/>
+					<Add option="-DARROW_WITH_BACKTRACE"/>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add option="-DURI_STATIC_BUILD"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow_static/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libarrow.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_EXPORTING"/>
+					<Add option="-DARROW_WITH_BACKTRACE"/>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add option="-DURI_STATIC_BUILD"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow_static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow_shared">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libarrow.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_EXPORTING"/>
+					<Add option="-DARROW_WITH_BACKTRACE"/>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add option="-DURI_STATIC_BUILD"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow_shared"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow_shared/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libarrow.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_EXPORTING"/>
+					<Add option="-DARROW_WITH_BACKTRACE"/>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add option="-DURI_STATIC_BUILD"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow_objlib">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/arrow_objlib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_EXPORTING"/>
+					<Add option="-DARROW_WITH_BACKTRACE"/>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add option="-DURI_STATIC_BUILD"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow_objlib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow_objlib/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/arrow_objlib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_EXPORTING"/>
+					<Add option="-DARROW_WITH_BACKTRACE"/>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add option="-DURI_STATIC_BUILD"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow_objlib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow-integration">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow-integration"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow-tests">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow-tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow-benchmarks">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow-benchmarks"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrow-all">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 arrow-all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sboost-benchmarks">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 sboost-benchmarks"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sboost_shared">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libsboost.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 sboost_shared"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sboost_shared/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libsboost.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 sboost_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sboost_static">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libsboost.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 sboost_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sboost_static/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libsboost.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 sboost_static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sboost_objlib">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/sboost_objlib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 sboost_objlib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sboost_objlib/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/sboost_objlib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 sboost_objlib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf_shared">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/liblqf.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 lqf_shared"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf_shared/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/liblqf.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 lqf_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf-benchmarks">
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 lqf-benchmarks"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf_static">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/liblqf.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 lqf_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf_static/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/liblqf.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 lqf_static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf_objlib">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/lqf_objlib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 lqf_objlib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf_objlib/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/lqf_objlib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 lqf_objlib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf-file-explore">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/lqf-file-explore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 lqf-file-explore"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf-file-explore/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/lqf-file-explore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 lqf-file-explore/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf-threadsanitizer-exp">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/lqf-threadsanitizer-exp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 lqf-threadsanitizer-exp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf-threadsanitizer-exp/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/lqf-threadsanitizer-exp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 lqf-threadsanitizer-exp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf-tpch-query-dev">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/lqf-tpch-query-dev" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 lqf-tpch-query-dev"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lqf-tpch-query-dev/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/lqf-tpch-query-dev" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 lqf-tpch-query-dev/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tpch_static">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libtpch_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 tpch_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tpch_static/fast">
+				<Option output="/Users/harper/git/CodecDB/engine/cmake-build-debug/debug/libtpch_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARROW_WITH_TIMING_TESTS"/>
+					<Add option="-DARROW_USE_SIMD"/>
+					<Add option="-DARROW_JEMALLOC"/>
+					<Add option="-DARROW_JEMALLOC_INCLUDE_DIR="/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/src/generated"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/flatbuffers/include"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/src"/>
+					<Add directory="/Users/harper/git/CodecDB/engine/thirdparty/hadoop/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 tpch_static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/builder_adaptive.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/builder_base.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/builder_binary.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/builder_decimal.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/builder_dict.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/builder_nested.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/builder_primitive.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/builder_union.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/concatenate.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/dict_internal.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/diff.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/array/validate.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/buffer.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/builder.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/compare.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/extension_type.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/io/buffered.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/io/compressed.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/io/file.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/io/hdfs.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/io/hdfs_internal.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/io/interfaces.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/io/memory.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/io/slow.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/ipc/dictionary.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/ipc/feather.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/ipc/message.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/ipc/metadata_internal.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/ipc/options.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/ipc/reader.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/ipc/writer.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/memory_pool.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/pretty_print.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/record_batch.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/result.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/scalar.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/sparse_tensor.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/status.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/table.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/table_builder.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/tensor.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/testing/util.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/type.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/basic_decimal.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/bit_util.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/compression.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/cpu_info.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/decimal.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/delimiting.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/formatting.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/int_util.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/io_util.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/iterator.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/key_value_metadata.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/logging.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/memory.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/parsing.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/string.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/string_builder.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/task_group.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/thread_pool.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/time.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/trie.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/uri.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/util/utf8.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/base64.cpp.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/datetime/tz.cpp.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/double-conversion/bignum-dtoa.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/double-conversion/bignum.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/double-conversion/cached-powers.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/double-conversion/diy-fp.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/double-conversion/double-conversion.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/double-conversion/fast-dtoa.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/double-conversion/fixed-dtoa.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/double-conversion/strtod.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriCommon.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriCompare.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriEscape.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriFile.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriIp4.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriIp4Base.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriMemory.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriNormalize.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriNormalizeBase.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriParse.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriParseBase.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriQuery.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriRecompose.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriResolve.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/vendored/uriparser/UriShorten.c.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/arrow/CMakeFiles/arrow_objlib.dir/visitor.cc.o">
+			<Option target="arrow_static"/>
+			<Option target="arrow_shared"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/agg.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/bitmap.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/concurrent.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/container.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/data_container.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/data_model.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/dict.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/filter.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/filter_executor.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/hash.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/hash_container.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/join.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/lang.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/mat.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/memorypool.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/parallel.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/print.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/rowcopy.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/sort.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/stream.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/threadpool.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/union.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/lqf/CMakeFiles/lqf_objlib.dir/util.cc.o">
+			<Option target="lqf_shared"/>
+			<Option target="lqf_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/bitmap_writer.cc.o">
+			<Option target="sboost_shared"/>
+			<Option target="sboost_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/byteutils.cc.o">
+			<Option target="sboost_shared"/>
+			<Option target="sboost_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/encoding/deltabp.cc.o">
+			<Option target="sboost_shared"/>
+			<Option target="sboost_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/encoding/encoding_utils.cc.o">
+			<Option target="sboost_shared"/>
+			<Option target="sboost_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/encoding/rlehybrid.cc.o">
+			<Option target="sboost_shared"/>
+			<Option target="sboost_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/sboost.cc.o">
+			<Option target="sboost_shared"/>
+			<Option target="sboost_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/simd.cc.o">
+			<Option target="sboost_shared"/>
+			<Option target="sboost_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/src/sboost/CMakeFiles/sboost_objlib.dir/unpacker.cc.o">
+			<Option target="sboost_shared"/>
+			<Option target="sboost_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_adaptive.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_adaptive.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_base.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_base.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_binary.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_binary.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_decimal.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_decimal.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_dict.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_dict.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_nested.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_nested.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_primitive.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_primitive.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_union.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/builder_union.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/concatenate.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/concatenate.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/dict_internal.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/dict_internal.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/diff.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/diff.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/validate.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/validate.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/buffer.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/buffer.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/builder.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/builder.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/compare.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/compare.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/extension_type.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/extension_type.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/buffered.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/buffered.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/compressed.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/compressed.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/file.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/file.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/hdfs.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/hdfs.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/hdfs_internal.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/hdfs_internal.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/interfaces.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/interfaces.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/memory.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/memory.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/slow.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/slow.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/dictionary.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/dictionary.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/feather.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/feather.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/message.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/message.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/metadata_internal.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/metadata_internal.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/options.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/options.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/reader.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/reader.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/writer.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/writer.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/memory_pool.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/memory_pool.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/pretty_print.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/pretty_print.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/record_batch.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/record_batch.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/result.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/result.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/scalar.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/scalar.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/sparse_tensor.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/sparse_tensor.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/status.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/status.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/table.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/table.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/table_builder.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/table_builder.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/tensor.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/tensor.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/testing/util.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/testing/util.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/type.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/type.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/basic_decimal.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/basic_decimal.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/bit_util.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/bit_util.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/compression.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/compression.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/cpu_info.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/cpu_info.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/decimal.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/decimal.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/delimiting.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/delimiting.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/formatting.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/formatting.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/int_util.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/int_util.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/io_util.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/io_util.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/iterator.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/iterator.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/key_value_metadata.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/key_value_metadata.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/logging.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/logging.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/memory.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/memory.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/parsing.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/parsing.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/string.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/string.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/string_builder.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/string_builder.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/task_group.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/task_group.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/thread_pool.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/thread_pool.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/time.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/time.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/trie.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/trie.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/uri.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/uri.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/utf8.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/utf8.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/base64.cpp">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/datetime/tz.cpp">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/datetime/tz.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/bignum-dtoa.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/bignum-dtoa.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/bignum.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/bignum.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/cached-powers.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/cached-powers.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/diy-fp.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/diy-fp.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/double-conversion.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/double-conversion.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/fast-dtoa.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/fast-dtoa.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/fixed-dtoa.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/fixed-dtoa.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/strtod.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/strtod.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriCommon.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriCommon.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriCompare.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriEscape.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriFile.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriIp4.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriIp4.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriIp4Base.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriIp4Base.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriMemory.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriMemory.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriNormalize.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriNormalizeBase.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriNormalizeBase.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriParse.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriParseBase.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriParseBase.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriQuery.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriRecompose.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriResolve.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/uriparser/UriShorten.c">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/visitor.cc">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/visitor.h">
+			<Option target="arrow_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/agg.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/agg.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/bitmap.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/bitmap.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/concurrent.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/concurrent.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/container.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/container.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/data_container.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/data_container.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/data_model.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/data_model.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/dict.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/dict.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/filter.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/filter.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/filter_executor.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/filter_executor.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/hash.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/hash.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/hash_container.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/hash_container.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/join.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/join.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/lang.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/lang.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/mat.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/mat.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/memorypool.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/memorypool.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/parallel.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/parallel.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/print.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/print.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/rowcopy.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/rowcopy.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/sort.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/sort.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/stream.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/stream.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/threadpool.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/threadpool.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/file_explore.cc">
+			<Option target="lqf-file-explore"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query1.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query10.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query11.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query12.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query13.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query14.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query15.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query16.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query17.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query18.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query19.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query2.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query20.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query21.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query22.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query3.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query4.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query5.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query6.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query7.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query8.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/query9.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/threadsanitizer_exp.cc">
+			<Option target="lqf-threadsanitizer-exp"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/tpchquery.cc">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/tpchquery.h">
+			<Option target="tpch_static"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/tpchquery_dev.cc">
+			<Option target="lqf-tpch-query-dev"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/union.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/union.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/util.cc">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/util.h">
+			<Option target="lqf_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/bitmap_writer.cc">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/bitmap_writer.h">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/byteutils.cc">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/byteutils.h">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/encoding/deltabp.cc">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/encoding/deltabp.h">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/encoding/encoding_utils.cc">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/encoding/encoding_utils.h">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/encoding/rlehybrid.cc">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/encoding/rlehybrid.h">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/sboost.cc">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/sboost.h">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/simd.cc">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/simd.h">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/unpacker.cc">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/unpacker.h">
+			<Option target="sboost_objlib"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake_modules/BuildUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake_modules/DefineOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake_modules/FindClangTools.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake_modules/FindInferTools.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake_modules/SetupCxxFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake_modules/ThirdpartyToolchain.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake_modules/san-config.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/cmake-build-debug/jemalloc_ep-prefix/tmp/jemalloc_ep-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\jemalloc_ep-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ArrowConfig.cmake.in">
+			<Option virtualFolder="CMake Files\src\arrow\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\arrow\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/arrow.pc.in">
+			<Option virtualFolder="CMake Files\src\arrow\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\arrow\util\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/util/config.h.cmake">
+			<Option virtualFolder="CMake Files\src\arrow\util\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/testing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\arrow\testing\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/array/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\arrow\array\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/io/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\arrow\io\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\arrow\vendored\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/datetime/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\arrow\vendored\datetime\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/vendored/double-conversion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\arrow\vendored\double-conversion\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/arrow/ipc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\arrow\ipc\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\sboost\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/sboost/SboostConfig.cmake.in">
+			<Option virtualFolder="CMake Files\src\sboost\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lqf\"/>
+		</Unit>
+		<Unit filename="/Users/harper/git/CodecDB/engine/src/lqf/tpch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lqf\tpch\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

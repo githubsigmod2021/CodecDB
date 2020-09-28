@@ -1,0 +1,15 @@
+message m {
+	has_header
+	required binary DATAFILE_AS_OF;
+	required binary SIGNIFICANT;
+	required binary	SERIOUS;
+	required int32	RPTID;
+	required binary	DOR;
+	required int32	OPID;	
+	required binary NAME;
+	required binary	INADR;
+	required binary	ACCTY;
+	required binary	ACCNT;
+	required binary	ACCST;
+	required binary	ACZIP;
+}

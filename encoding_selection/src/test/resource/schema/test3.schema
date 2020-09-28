@@ -1,0 +1,26 @@
+message m {
+	no_header
+	required int32 ID;
+	required binary Case_number;
+	required binary Date;
+	required binary Block;
+	required binary IUCR;
+	required binary Primary_type;
+	required binary Description;
+	required binary Loc_description;
+	required boolean Arrest;
+	required boolean Domestic;
+	required int32 Beat;
+	required int32 District;
+	required int32 Ward;
+	required int32 Community_area;
+	required binary FBI_code;
+ 	optional int32 X_coord;
+	optional int32 Y_coord;
+	required int32 year;
+	optional binary update_on;
+	optional float lat;
+	optional float long;
+	optional binary location;
+
+}

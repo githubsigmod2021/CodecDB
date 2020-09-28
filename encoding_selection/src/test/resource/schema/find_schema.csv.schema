@@ -1,0 +1,5 @@
+message m {
+	required int32 a;
+	required int32 b;
+	required int32 c;
+}
