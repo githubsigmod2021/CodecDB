@@ -23,5 +23,10 @@ This directory contains the code and build system for the CodecDB Storage and Qu
 
 ## Build 
 
-Run cmake from this folder to make a build
+Run cmake from this folder to make a build. Please note this project requires the support of AVX512. We recommend building it with a Skylake CPU.
+
+CMake Build Options:
+```
+-DARROW_PARQUET=ON -DARROW_BUILD_BENCHMARKS=ON -DARROW_WITH_SNAPPY=ON -DLQF_PARALLEL=ON
+```
 
