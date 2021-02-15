@@ -15,7 +15,7 @@ However, there is no simple rule on how to choose the best encoding scheme for a
 ### Dataset Collection
 Our work is based on analysis and evaluation of real-world datasets. We have created an automated framework to collect datasets, extract columns from them, organize, and persist the records for further analysis. The framework could accept various input formats including csv, txt, JSon and MS Excel files. It also supports recognition of column data type for unattended data collection. For further analysis purpose, the framework provides API enabling customized features to be extracted from the columns.
 
-Using this framework, we have collected over 7000 columns from approximately 1200 datasets with a total size of 500G data. These datasets are all from real-world data sources and cover a rich collection of data types (integer, date, address, etc.), with diverse data distributions. We use Apache Parquet's built-in encoders to encode these data columns with different encoding schemes, looking for the one performing best for each column. We also developed some customized encoders to compare their performance.
+Using this framework, we have collected ~20000 columns from approximately 1200 datasets with a total size of 500G data. These datasets are all from real-world data sources and cover a rich collection of data types (integer, date, address, etc.), with diverse data distributions. We use Apache Parquet's built-in encoders to encode these data columns with different encoding schemes, looking for the one performing best for each column. We also developed some customized encoders to compare their performance.
 
 Here's a list of data sources we used in the experiments.
 * Government Data Portals
@@ -44,8 +44,6 @@ Here's a list of data sources we used in the experiments.
 In this project, we target at building a encoding selector that is able to "predict" the best encoding scheme by looking at only a limited section of the entire dataset, e.g., the first 1% of the records. To do this, we plan to use the collected data columns and the "ground truth" best encoding scheme to train a neural network for this purpose. 
 
 Choosing core features that truly represents the relationship between data and label is crucial to the success of neural network training task. The features we choose including statistical information such as mean and variance of data length, entropy. We also use NLP technique to learn from column names. Finally, we also try to use LSTM RNN network to learn patterns from the sampled column. 
-
-
 
 ## Encoding-Aware Query Engine
 
